@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajath R. Shetty | Developer</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7f8;
+      color: #263238;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: min(900px, 92%);
+      margin: 50px auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(20, 50, 60, 0.1);
+    }
+
+    header {
+      background: #075b66;
+      color: #fff;
+      padding: 42px 32px;
+    }
+
+    header p {
+      color: #d2e8eb;
+      margin-top: 8px;
+    }
+
+    main {
+      padding: 32px;
+    }
+
+    section {
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      color: #075b66;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills span {
+      background: #e6f2f3;
+      color: #075b66;
+      padding: 7px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    .contact a {
+      color: #075b66;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid #e8eeee;
+      color: #718087;
+      text-align: center;
+      padding: 18px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px auto;
+      }
+
+      header,
+      main {
+        padding: 26px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <article class="card">
+      <header>
+        <h1>Rajath R. Shetty</h1>
+        <p>Software Developer · Web and Mobile Applications</p>
+      </header>
+
+      <main>
+        <section>
+          <h2>About Me</h2>
+          <p>
+            I’m a software developer who builds web and mobile applications.
+            I work across frontend and backend development, turning ideas into
+            practical, user-friendly products.
+          </p>
+        </section>
+
+        <section>
+          <h2>What I Do</h2>
+          <p>
+            I develop responsive websites, mobile apps, APIs, and database
+            powered features. I also work on deployment and improving existing
+            applications.
+          </p>
+        </section>
+
+        <section>
+          <h2>Technologies</h2>
+          <div class="skills">
+            <span>React</span>
+            <span>React Native</span>
+            <span>Expo</span>
+            <span>TypeScript</span>
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>Next.js</span>
+            <span>Flutter</span>
+            <span>AWS</span>
+          </div>
+        </section>
+
+        <section class="contact">
+          <h2>Contact</h2>
+          <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+          <p>GitHub: <a href="https://github.com/your-username">github.com/your-username</a></p>
+          <p>LinkedIn: <a href="https://linkedin.com/in/your-profile">linkedin.com/in/your-profile</a></p>
+        </section>
+      </main>
+
+      <footer>
+        © 2026 Rajath R. Shetty
+      </footer>
+    </article>
+  </div>
+</body>
+</html>
